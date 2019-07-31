@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy|Satisfy&display=swap');
 @import "bootstrap";
 .clear {
   clear:both
@@ -24,8 +25,7 @@
 }
 
 .slogan{
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-  font-style : italic;
+  font-family: 'introrustg-base2line';
   padding-top : 30px
 }
 
@@ -41,4 +41,8 @@
 
 header {
   border-top : 9px solid #222222
+}
+
+h1{
+  font-family: 'Satisfy', cursive;;
 }
