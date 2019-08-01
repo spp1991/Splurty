@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Chewy|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chewy|Satisfy|Grenze&display=swap');
 @import "bootstrap";
 .clear {
   clear:both
@@ -40,9 +40,48 @@
 }
 
 header {
-  border-top : 9px solid #222222
+  border-top : 9px solid #222222;
 }
 
 h1{
   font-family: 'Satisfy', cursive;;
+}
+
+h2{
+  font-family: 'Grenze', serif;
+  text-align:right;
+}
+
+hr {
+  border-top : 3px solid #4a4144;
+  clear : both;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.next-quote {
+  color:#f84342;
+  font-family: 'Grenze', serif;
+  font-size : 20px;
+}
+
+.footer-blurb{
+  font-family: 'Grenze', serif;
+  font-style :italic;
+  text-align:right;
+  font-size:10px;
 }
