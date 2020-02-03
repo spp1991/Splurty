@@ -11,19 +11,7 @@ Gems : simple form
 
 Note : Please execute commands to install all gems ('bundle install') and create/migrate database/tables('rails db:create , rails db:migrate') before git repository of this application is downloaded and used to run on local server 
 
-To checkout the application, click [here](https://grammable-sunnypatel.herokuapp.com/) 
+To checkout the application, click [here](https://splurty-sunny-patel.herokuapp.com/) 
 
 ## Home Page
-<img src="screenshot-home.png" alt="Screenshot Home">
-
-## Course Listing Page (Administrator)
-<img src="Screenshot-course-administrator.png" alt="Course Page Administrator">
-
-## Course Page (Student)
-<img src="screenshot-course-student.png" alt="Course Page Student">
-
-## Lesson Page (Student)
-<img src="screenshot-lesson-page.png" alt="Student Lesson Page">
-
-## Payment Page (Student)
-<img src="stripe-payment-page.png" alt="Payment Page">
+<img src="screenshot.png" alt="Screenshot Home">
