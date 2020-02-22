@@ -2,16 +2,68 @@
 
 It is a quote generating app which randomly shows quotes stored in database. It also has a feature for user to enter a quote.
 
-Technical details of the app is as follows :
-Programming Language: Ruby, HTML5, javascript
-Web/stylesheet Framwork : ruby on rails, bootstrap  
-Database : postgresql
-Gems : simple form
+## [Try it yourself](https://splurty-sunny-patel.herokuapp.com/) 
 
+### Prerequisites
 
-Note : Please execute commands to install all gems ('bundle install') and create/migrate database/tables('rails db:create , rails db:migrate') before git repository of this application is downloaded and used to run on local server 
+You will need to setup Vagrant environment to run the application on local machine. To find the installation instructions for your OS, visit :
 
-To checkout the application, click [here](https://splurty-sunny-patel.herokuapp.com/) 
+```
+https://github.com/FirehoseProject/firehose-vagrant-rails5
+```
+### Installing
+
+Initiate the vagrant environment.
+
+Git clone the repository to your local machine in the src folder :
+
+HTTPS:
+```
+$ git clone https://github.com/spp1991/Splurty.git
+```
+
+SSH:
+
+```
+$ git clone git@github.com:spp1991/Splurty.git
+```
+
+Open application folder created by git clone command:
+
+```
+$ cd Splurty
+```
+
+Install all the gems used in application:
+
+```
+$ bundle install
+```
+
+Install the application database and create all the tables:
+
+```
+$ rails db:create
+$ rails db:migrate
+```
+
+You will then be able to start the app locally by runnning:
+
+```
+$ rails server -b 0.0.0.0 -p 3000
+```
+
+## Built With
+
+* [Ruby on Rails](https://rubyonrails.org/) - Web framework
+* [PostgreSQL](https://www.postgresql.org/) - Database
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - Web markup language
+* [CSS3](http://www.css3.info/) - Webpage Style Sheet language
+* [Bootstrap](https://getbootstrap.com/) - CSS Framework
+* [Javascript](https://www.javascript.com/) - Web Programming language
+* [jQuery](https://jquery.com/) - Javascript Framework
+* [Amazon Web Service](https://aws.amazon.com/) - Cloud Storage Platform
+* [Simple-form](https://github.com/heartcombo/simple_form) - Ruby gems
 
 ## Home Page
 <img src="screenshot.png" alt="Screenshot Home">
